@@ -103,7 +103,7 @@ export default function Home() {
           transition={{ duration: 0.6, delay: 2, ease: [0.22, 1, 0.36, 1] }}
         >
           <p className="text-gray-300/70">
-            Si fuiste parte del pla piloto y deseas darte de baja, dale{" "}
+            Si fuiste parte del plan piloto y deseas darte de baja, dale{" "}
             <a href="#" className="text-orange-500 underline">
               click aquí
             </a>
