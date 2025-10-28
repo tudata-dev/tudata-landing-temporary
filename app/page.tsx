@@ -89,7 +89,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.5, ease: [0.22, 1, 0.36, 1] }}
-            className="text-lg md:text-xl lg:text-2xl text-gray-400 leading-relaxed max-w-3xl mx-auto font-light"
+            className="text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto font-light"
           >
             TuData evoluciona con nuevas tecnologías, más agilidad y una
             experiencia diseñada para ti.
@@ -102,15 +102,14 @@ export default function Home() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 2, ease: [0.22, 1, 0.36, 1] }}
         >
-          <Link
-            href="#"
-            className="group relative inline-flex items-center justify-center px-8 py-4 text-base md:text-lg font-medium text-white transition-all duration-300 hover:scale-105"
-          >
-            {/* Button text */}
-            <span className="relative z-10 flex items-center gap-2 text-orange-500 underline">
-              Eliminar mi cuenta
-            </span>
-          </Link>
+          <p className="text-gray-300/70">
+            Si fuiste parte del pla piloto y deseas darte de baja, dale{" "}
+            <a href="#" className="text-orange-500 underline">
+              click aquí
+            </a>
+            , de los contrario todos tus datos bloqueos y autorizaciones
+            permanecerán seguras y serán incluidas en la nueva versión
+          </p>
         </motion.div>
       </div>
     </main>
